@@ -1,0 +1,118 @@
+body{
+  background-color: black;
+  color: white;
+}
+#header{
+  display: inline-block;
+  border: 1px solid white;
+  margin: 10px 0 0 8px;
+  padding: 5px;
+}
+#menu-icon{
+  font-size: 2rem;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+#close-icon{
+  display: none;
+  position: absolute;
+  right: 2rem;
+  top: 1.5rem;
+}
+#content{
+  width: 70%;
+  margin-left: 0.5rem;
+}
+#more{
+  color: white;
+  text-decoration: none;
+  margin: 0 0 20px 0;
+}
+#more:hover{
+  text-decoration: underline;
+}
+#more-icon{
+  margin: 0 0 0 5px;
+}
+.nav{
+  font-size: 2rem;
+  display: none;
+  position: absolute;
+  top: 20%;
+  left: 25%;
+}
+#navbar{
+  display: none;
+}
+li{
+  list-style-type: none;
+  padding: 10px;
+}
+li:hover{
+  text-decoration: underline;
+}
+img{
+  width: 90vw;
+}
+.info{
+  position: absolute;
+ width: 100%;
+ z-index: -1;
+}
+#profile img{
+  width: 60px;
+  border-radius: 100%;
+  margin-left: 0.5rem;
+}
+#profile{
+  position: relative;
+  top: 12rem;
+  left: 4rem;
+  width: 90%;
+  background-color: black;
+} 
+#profile h4{
+  margin: -3.5rem 0 0 5rem;
+}
+#profile h3{
+  margin-left: 10px;
+}
+#profile p{
+  margin: 0.5rem 0 0 5rem;
+}
+.bottom{
+  position: absolute;
+  bottom: 1rem;
+  left: 30%;
+}
+.bottom a{
+  color: white;
+  text-decoration: underline;
+}
+@media (min-width:768px){
+  body{
+    font-size: 2.2em;
+  }
+  #menu-icon{
+    display: none;
+  }
+  #header{
+    margin-top: 4%;
+    padding: 5px;
+  }
+ #navbar{
+   display: flex;
+   width: 50%;
+   position: absolute;
+  margin-left: 12rem;
+   top: 2rem;
+ }
+ #info{
+   width: 80%;
+ }
+ #profile {
+   top: 35rem;
+   left: 8rem;
+ }
+}
